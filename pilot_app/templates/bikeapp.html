@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .container
+    {
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+    }
+    input
+    {
+        position: absolute;
+        width: 300px;
+        left: 500px;
+        margin-bottom: 20px;
+    }
+    label
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        right: 900px;
+        
+    }
+    button
+    {
+        position:absolute;
+        right: 900px;
+        background-color:royalblue;
+        color: white;
+    }
+</style>
+<body>
+    <div class="container">
+    <form method="POST">
+        <label>Model</label>
+        <input name="input_Model" type="text" value="e.g. Honda">
+        <br>
+        <label>Daily Fee</label>
+        <input name="input_Daily_Fee" type="text" value="100000">
+        <br>
+        <label>Image</label>
+        <input name="input_Image" type="text" value="e.g. https://hondaxemay.com">
+        <br>
+        <label>Year</label>
+        <input name="input_Year" type="text" value="e.g. 2013">
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
